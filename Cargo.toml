@@ -1,0 +1,12 @@
+[package]
+name = "compio-stall"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+
+[dependencies]
+compio = { version = "=0.20.0-beta.1", features = ["net", "macros", "time", "io"] }
+futures-util = "0.3"
+libc = "0.2"
+
